@@ -3,5 +3,6 @@ echo "welcome to arthemetic and sorting programs"
 read -p "enter the first input :" a
 read -p "enter the second input :" b
 read -p "enter the third input :" c
-
+op1=$((a+b*c))
+echo $op1
 
