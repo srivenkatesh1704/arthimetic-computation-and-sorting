@@ -11,4 +11,9 @@ op3=$((c+ $((a/b)) ))
 echo $op3
 op4=$(( $((a%b)) + c))
 echo $op4
+declare -p operation
+operation[ op1 ]=$op1
+operation[op2]=$op2
+operation[op3]=$op3
+operation[op4]=$op4
 
