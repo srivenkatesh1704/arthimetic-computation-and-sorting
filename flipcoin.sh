@@ -1,0 +1,2 @@
+echo "flip coin"
+
